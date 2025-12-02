@@ -13,12 +13,15 @@ struct LiveMapApp: App {
     
     init() {
         GMSServices.provideAPIKey("AIzaSyBUEwnuG9ColGU_DROCCwDtzQun10L4R3Y")
+       
+      
+
     }
     
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }
